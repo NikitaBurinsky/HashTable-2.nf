@@ -1,0 +1,17 @@
+﻿  HashTable_2.cpp
+  Testcase_HT.cpp
+C:\Users\User\Desktop\C++\HashTable_2\Testcase_HT.cpp(8,33): warning C4305: аргумент: усечение из "double" в "float"
+C:\Users\User\Desktop\C++\HashTable_2\Testcase_HT.cpp(8,28): warning C4305: аргумент: усечение из "double" в "float"
+C:\Users\User\Desktop\C++\HashTable_2\HashTable_2.cpp(175,22): warning C4244: =: преобразование "float" в "long", возможна потеря данных
+C:\Users\User\Desktop\C++\HashTable_2\HashTable_2.cpp(173,1): message : во время компиляции функции-члена класс шаблон "void HashTable<int>::UpgradeTable(void)"
+C:\Users\User\Desktop\C++\HashTable_2\HashTable_2.cpp(162,1): message : во время компиляции функции-члена класс шаблон "bool HashTable<int>::RecalculateSize(void)"
+C:\Users\User\Desktop\C++\HashTable_2\HashTable_2.cpp(37,17): message : см. первую ссылку на "HashTable<int>::RecalculateSize" в "HashTable<int>::insert"
+C:\Users\User\Desktop\C++\HashTable_2\Testcase_HT.cpp(19,11): message : см. первую ссылку на "HashTable<int>::insert" в "main"
+C:\Users\User\Desktop\C++\HashTable_2\HashTable_2.cpp(5,1): message : во время компиляции функции-члена класс шаблон "HashTable<int>::HashTable(long,float,float)"
+C:\Users\User\Desktop\C++\HashTable_2\Testcase_HT.cpp(8,17): message : см. первую ссылку на "HashTable<int>::HashTable" в "main"
+C:\Users\User\Desktop\C++\HashTable_2\Testcase_HT.cpp(8,26): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "HashTable<int>"
+  Создание кода
+  Previous IPDB not found, fall back to full compilation.
+  All 131 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+  HashTable_2.vcxproj -> C:\Users\User\Desktop\C++\HashTable_2\x64\Release\HashTable_2.exe
