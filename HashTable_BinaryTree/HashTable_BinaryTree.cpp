@@ -16,6 +16,12 @@ HashTable_BinaryTree<Type>::HashTable_BinaryTree(unsigned int capac, float MaxOv
 	UpgradeTableMultiplier = UpgadeTableMultipl;
 }
 
+template<class Type>
+HashTable_BinaryTree<Type>::~HashTable_BinaryTree()
+{
+	clear();
+}
+
 template <class Type>
 unsigned int HashTable_BinaryTree<Type>::hash_function(long key)
 {

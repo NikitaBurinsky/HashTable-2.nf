@@ -11,7 +11,9 @@ class HashTable_ForwardList
 {
 public:
 	HashTable_ForwardList(long size, float OverSizePercentMax = 1.5, float ResizeCapacity = 2);
-	
+	~HashTable_ForwardList();
+
+
 	//Interfaces
 	void insert(string& key, Type value);
 	void insert(string key, Type value);

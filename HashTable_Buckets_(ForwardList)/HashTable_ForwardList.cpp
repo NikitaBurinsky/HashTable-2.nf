@@ -13,6 +13,12 @@ inline HashTable_ForwardList<Type>::HashTable_ForwardList(long size, float SizeP
 		arr[i] = nullptr;
 }
 
+template<class Type>
+HashTable_ForwardList<Type>::~HashTable_ForwardList()
+{
+	clear();
+}
+
 //INSERT ===================
 template<class Type>
 void HashTable_ForwardList<Type>::insert(string& key, Type value)

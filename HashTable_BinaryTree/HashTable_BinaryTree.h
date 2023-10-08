@@ -11,6 +11,7 @@ class HashTable_BinaryTree //Key is only LONG
 public:
 
 	HashTable_BinaryTree<Type>(unsigned int capac, float MaxOverPerc = 1.5, float UpgadeTableMultipl = 2); // unsigned int capacity, float MaxiamOverflowPercent, UpgradeTableMultiplier
+	~HashTable_BinaryTree<Type>();
 
 	//Interfaces
 	void insert(long key, Type val);
