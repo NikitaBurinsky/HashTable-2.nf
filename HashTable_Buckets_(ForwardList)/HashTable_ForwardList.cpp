@@ -17,6 +17,7 @@ template<class Type>
 HashTable_ForwardList<Type>::~HashTable_ForwardList()
 {
 	clear();
+	delete[] arr;
 }
 
 //INSERT ===================

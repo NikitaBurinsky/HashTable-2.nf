@@ -20,6 +20,7 @@ template<class Type>
 HashTable_BinaryTree<Type>::~HashTable_BinaryTree()
 {
 	clear();
+	delete[] arr;
 }
 
 template <class Type>
