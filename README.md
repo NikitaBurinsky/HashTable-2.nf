@@ -8,7 +8,7 @@ Each class has a set of functions:
 1. insert(key, value) - Adding an element (Template type) by key (string). For a binary tree, the key is of type long;
 2. erase(key) - Deleting an element by key
 3. get() & operator[] - Returns a reference to an element by key
-4. gt_r() - Returns a pointer to an element by key
+4. get_r() - Returns a pointer to an element by key
 5. clear() - Clearing the table
 6. empty() - Returns true if the table is empty, otherwise false
 7. print_Info() - Displays information about the table
