@@ -399,5 +399,5 @@ unsigned long HashTable_ForwardList<Type>::hash_function(string& key)
 	{
 		result += (int)key[i];
 	}
-	return 1;//result % capacity;
+	return result % capacity;
 }
