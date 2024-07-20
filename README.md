@@ -1,4 +1,4 @@
-# HashTable-2.nf
+# HashTable_Realization.nf
 Template classes have the ability to insert and delete elements by key, as well as receive an element by key. To solve the problem of collisions, the main methods
 of processing are used: Collision chains, Binary trees.
 The table automatically expands N times when the ratio "Number of elements/X" is reached,
