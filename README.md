@@ -23,7 +23,7 @@ Parameters of the table constructor:
 		With an increase in the number of elements, hence an increase in the number of collisions,
 		the capacity of the table will expand. The expansion will occur if the expression is observed
 		MaxOverflowPercent < (numberOfElements/Capacity), keeping the table constant 
-		время доступа (>0.001sec). (По умолчанию = 1,5)
+		время доступа (const). (По умолчанию = 1,5)
 	3.UpgadeTableMultiplier
 		A value that shows how many times the table will increase when overflowing (see above).
 		(Default = 2)
